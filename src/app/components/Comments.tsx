@@ -7,7 +7,7 @@ import estrelas from "../../../public/estrelas.svg"
 const Comments = () => {
   return (
     <div className="mt-8 md:mt-24">
-      <h1 className="text-black-main font-semibold text-2xl md:text-5xl text-center">
+      <h1 className="text-black-main font-semibold text-2xl md:text-5xl text-center md:text-start">
         Comentários
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 items-center mt-8 md:mt-12">
