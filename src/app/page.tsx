@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Populars } from "./components/Populars";
 import Comments from "./components/Comments";
 import { Location } from "./components/Location";
+import { Footer } from "./components/Footer";
 
 export default function Home() {
   return (
@@ -51,6 +52,7 @@ export default function Home() {
         <Populars />
         <Comments />
         <Location />
+        <Footer />
       </div>
     </div>
   );
