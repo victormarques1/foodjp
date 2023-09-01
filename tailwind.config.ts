@@ -11,6 +11,7 @@ const config: Config = {
       "red-main": "#DA2535",
       "black-main": "#292929",
       "gray-light": "#616161",
+      "gray-bg-pop": '#F3F3F3',
       "white": "#FFF",
     },
     extend: {

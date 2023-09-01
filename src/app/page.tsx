@@ -3,6 +3,7 @@ import Sushi from "../../public/sushi.svg";
 import Img2 from "../../public/img-2.svg";
 import { Header } from "./components/Header";
 import Link from "next/link";
+import { Populars } from "./components/Populars";
 
 export default function Home() {
   return (
@@ -45,6 +46,8 @@ export default function Home() {
             </Link>
           </div>
         </section>
+        <Populars />
+        
       </div>
     </div>
   );
