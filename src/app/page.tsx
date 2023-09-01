@@ -4,6 +4,7 @@ import Img2 from "../../public/img-2.svg";
 import { Header } from "./components/Header";
 import Link from "next/link";
 import { Populars } from "./components/Populars";
+import Comments from "./components/Comments";
 
 export default function Home() {
   return (
@@ -47,7 +48,7 @@ export default function Home() {
           </div>
         </section>
         <Populars />
-        
+        <Comments />
       </div>
     </div>
   );
